@@ -11,10 +11,10 @@ public class Ejercicio1 {
         e.nombre = "Gonzalo";
         e.apellido = "Barrios";
         e.curso = "Programacion";
-        e.calificacion = 8;
+        e.calificacion = 7;
         
         e.mostrarInfo();
-        e.subirCalificacion(2);
+        e.subirCalificacion(-2);
         e.mostrarInfo();
         e.bajarCalificacion(-3);
         e.mostrarInfo();
